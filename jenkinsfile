@@ -15,7 +15,7 @@ node('built-in')
  stage('continuoustesting')
  {
   git 'https://github.com/vivekkumargangam/FunctionalTesting.git'
-  sh 'java -jar /home/ubuntu/.jenkins/workspace/scriptedpipeline2/testing.jar '
+  sh 'java -jar /home/ubuntu/.jenkins/workspace/scriptedpipeline3/testing.jar '
  }
  stage('continuousdelivery')
  {
